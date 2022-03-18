@@ -12,6 +12,16 @@ An application that returns the second biggest number
 
 ---
 
+## How To Use
+- Build and Run Tests 🠊 **mvn clean install**
+- Run Tests Only 🠊 **mvn test**
+- Run App 🠊 You can run the app by running the main method in AppRunner class
+  - AppRunner 🠊 located at **src/main/java/com/adsquare/example/runner/AppRunner.java**
+- The input is being read from a txt file called "DemoFile.txt"
+  - DemoFile.txt file 🠊located at **src/main/resources/DemoFile.txt**
+
+---
+
 ## Structure Explained
 - **Java code is structured into three main packages**
 
@@ -78,18 +88,6 @@ An application that returns the second biggest number
 
 ---
 
-## How To Use
-- Build and Run Tests 🠊 **mvn clean install**
-- Run Tests Only 🠊 **mvn test**
-- Run App 🠊 You can run the app by running the main method in AppRunner class
-<br>
-    - located at **src/main/java/com/adsquare/example/runner/AppRunner.java**
-- The input is being read from a txt file called "DemoFile.txt"
-<br>
-    - located at **src/main/resources/DemoFile.txt**
-  
----
-
 ## Technologies used
 - Java 11
 - Maven
@@ -100,5 +98,7 @@ An application that returns the second biggest number
 
 ## Improvements
 - Can change chunk size to be configurable by reading it from an application.properties file.
-- Adding Integration Test for the boundary layer
+- Can change the file being read, and it's type to be configurable by reading it from an 
+  application.properties file and passing it as an argument in the load file.
+- Adding Integration Test for the boundary layer.
 
